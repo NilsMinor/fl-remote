@@ -1,0 +1,521 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 9500 2050 1225 1525
+U 5FACFA76
+F0 "touch" 50
+F1 "touch.sch" 50
+F2 "SDA" I L 9500 2225 50 
+F3 "~RESET" I L 9500 2525 50 
+F4 "~CHANGE" O L 9500 2425 50 
+F5 "SCL" I L 9500 2325 50 
+F6 "TVDD" I L 9500 2850 50 
+F7 "TGND" I L 9500 3050 50 
+$EndSheet
+Text Notes 1975 875  0    118  ~ 24
+Base PCB Side
+Text Notes 7850 875  0    118  ~ 24
+Touch PCB Side
+Wire Notes Line width 39
+	6975 6425 6975 1050
+Wire Notes Line width 39
+	11000 975  625  975 
+$Sheet
+S 1875 2125 550  400 
+U 5FADB292
+F0 "power" 50
+F1 "power.sch" 50
+F2 "VIN" I L 1875 2275 50 
+F3 "VOUT" O R 2425 2275 50 
+F4 "VBAT_ADC" O R 2425 2450 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x04_Male J14
+U 1 1 5FC59464
+P 8250 2325
+F 0 "J14" H 8400 2550 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8222 2298 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 8250 2325 50  0001 C CNN
+F 3 "~" H 8250 2325 50  0001 C CNN
+	1    8250 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J15
+U 1 1 5FC5A93E
+P 8250 2950
+F 0 "J15" H 8400 3175 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8222 2923 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 8250 2950 50  0001 C CNN
+F 3 "~" H 8250 2950 50  0001 C CNN
+	1    8250 2950
+	1    0    0    -1  
+$EndComp
+Text Label 8525 2225 0    50   ~ 0
+T_SDA
+Text Label 8525 2325 0    50   ~ 0
+T_SCL
+Text Label 8525 2425 0    50   ~ 0
+~T_CHANGE
+Text Label 8525 2525 0    50   ~ 0
+~T_RESET
+Wire Wire Line
+	8450 2950 9000 2950
+Wire Wire Line
+	8450 3150 9000 3150
+$Comp
+L Connector:Conn_01x02_Male J12
+U 1 1 5FC6017E
+P 7375 2225
+F 0 "J12" H 7450 2350 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7483 2315 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 7375 2225 50  0001 C CNN
+F 3 "~" H 7375 2225 50  0001 C CNN
+	1    7375 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J13
+U 1 1 5FC60C5A
+P 7400 2850
+F 0 "J13" H 7475 2975 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7508 2940 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 7400 2850 50  0001 C CNN
+F 3 "~" H 7400 2850 50  0001 C CNN
+	1    7400 2850
+	1    0    0    -1  
+$EndComp
+Text Label 8525 2850 0    50   ~ 0
+T_VDD
+Text Label 8525 3050 0    50   ~ 0
+T_GND
+Text Label 7650 2850 0    50   ~ 0
+T_GND
+Text Label 7650 2950 0    50   ~ 0
+T_GND
+Wire Wire Line
+	7600 2850 8150 2850
+Wire Wire Line
+	7600 2950 8150 2950
+Text Label 7625 2225 0    50   ~ 0
+T_GND
+Text Label 7625 2325 0    50   ~ 0
+T_GND
+Wire Wire Line
+	7575 2225 8125 2225
+Wire Wire Line
+	7575 2325 8125 2325
+$Comp
+L Connector:Conn_01x02_Female J18
+U 1 1 5FC71145
+P 6550 2225
+F 0 "J18" H 6425 2350 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6578 2110 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 6550 2225 50  0001 C CNN
+F 3 "~" H 6550 2225 50  0001 C CNN
+	1    6550 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J19
+U 1 1 5FC71CB3
+P 6550 2850
+F 0 "J19" H 6425 2975 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6578 2735 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 6550 2850 50  0001 C CNN
+F 3 "~" H 6550 2850 50  0001 C CNN
+	1    6550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J16
+U 1 1 5FC73826
+P 5625 2325
+F 0 "J16" H 5475 2550 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5653 2210 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 5625 2325 50  0001 C CNN
+F 3 "~" H 5625 2325 50  0001 C CNN
+	1    5625 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J17
+U 1 1 5FC7447C
+P 5625 2950
+F 0 "J17" H 5475 3200 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5653 2835 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 5625 2950 50  0001 C CNN
+F 3 "~" H 5625 2950 50  0001 C CNN
+	1    5625 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2225 9500 2225
+Wire Wire Line
+	8450 2325 9500 2325
+Wire Wire Line
+	8450 2425 9500 2425
+Wire Wire Line
+	8450 2525 9500 2525
+Wire Wire Line
+	8450 3050 9000 3050
+Wire Wire Line
+	8450 2850 9000 2850
+Wire Wire Line
+	9000 2850 9000 2950
+Connection ~ 9000 2850
+Wire Wire Line
+	9000 2850 9500 2850
+Wire Wire Line
+	9000 3150 9000 3050
+Connection ~ 9000 3050
+Wire Wire Line
+	9000 3050 9500 3050
+Wire Wire Line
+	4875 3150 5425 3150
+Wire Wire Line
+	4875 3050 5425 3050
+Wire Wire Line
+	4875 2950 5425 2950
+Wire Wire Line
+	4875 2850 5425 2850
+Wire Wire Line
+	4875 2525 5425 2525
+Wire Wire Line
+	4875 2425 5425 2425
+Wire Wire Line
+	5800 2950 6350 2950
+Wire Wire Line
+	5800 2850 6350 2850
+Wire Wire Line
+	5800 2325 6350 2325
+Wire Wire Line
+	5800 2225 6350 2225
+Text Label 5975 2950 0    50   ~ 0
+B_GND
+Text Label 5975 2850 0    50   ~ 0
+B_GND
+Text Label 5975 2325 0    50   ~ 0
+B_GND
+Text Label 5975 2225 0    50   ~ 0
+B_GND
+Text Label 5000 3050 0    50   ~ 0
+B_GND
+Text Label 5000 2850 0    50   ~ 0
+B_3V3
+Text Label 5000 2525 0    50   ~ 0
+~B_RESET
+Text Label 5000 2425 0    50   ~ 0
+~B_CHANGE
+Text Label 5000 2325 0    50   ~ 0
+B_SCL
+Text Label 5000 2225 0    50   ~ 0
+B_SDA
+Wire Wire Line
+	1650 2275 1875 2275
+Wire Wire Line
+	2425 2275 2625 2275
+Wire Wire Line
+	2625 2275 2625 2150
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5FB8DD13
+P 2625 2150
+F 0 "#PWR01" H 2625 2000 50  0001 C CNN
+F 1 "+3.3V" H 2640 2323 50  0000 C CNN
+F 2 "" H 2625 2150 50  0001 C CNN
+F 3 "" H 2625 2150 50  0001 C CNN
+	1    2625 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5FB8DD6A
+P 5325 3700
+F 0 "#PWR02" H 5325 3550 50  0001 C CNN
+F 1 "+3.3V" H 5340 3873 50  0000 C CNN
+F 2 "" H 5325 3700 50  0001 C CNN
+F 3 "" H 5325 3700 50  0001 C CNN
+	1    5325 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 2950 4875 2850
+Wire Wire Line
+	5325 4075 5325 3775
+Wire Wire Line
+	4875 3150 4875 3050
+Text Notes 1000 1675 0    50   ~ 0
+Akku : https://www.eremit.de/p/eremit-3-7v-1000mah-lipo-akku-503450-jst-ph-2-0mm
+Wire Wire Line
+	4875 2325 5425 2325
+Wire Wire Line
+	4875 2225 5425 2225
+Wire Wire Line
+	1650 2675 2875 2675
+Wire Wire Line
+	1650 2775 2875 2775
+$Sheet
+S 1000 2125 650  925 
+U 5FADDC24
+F0 "usb_to_uart" 50
+F1 "usb_to_uart.sch" 50
+F2 "~CTS" I R 1650 2875 50 
+F3 "TXD_O" O R 1650 2675 50 
+F4 "RXD_I" I R 1650 2775 50 
+F5 "~RTS" O R 1650 2975 50 
+F6 "VBUS" O R 1650 2275 50 
+$EndSheet
+Text Label 3900 2250 0    50   ~ 0
+B_SDA
+Text Label 3900 2350 0    50   ~ 0
+B_SCL
+$Sheet
+S 2875 2100 875  1950
+U 5FA99F0A
+F0 "ble" 50
+F1 "ble.sch" 50
+F2 "TXD" O L 2875 2775 50 
+F3 "RXD" I L 2875 2675 50 
+F4 "SDA" B R 3750 2250 50 
+F5 "SCL" O R 3750 2350 50 
+F6 "MISO" I R 3750 2500 50 
+F7 "MOSI" O R 3750 2600 50 
+F8 "SCK" O R 3750 2700 50 
+F9 "AIN0" I L 2875 3000 50 
+F10 "AIN1" I L 2875 3100 50 
+F11 "AIN2" I L 2875 3200 50 
+F12 "AIN3" I L 2875 3300 50 
+F13 "AIN4" I L 2875 3400 50 
+F14 "AIN5" I L 2875 3500 50 
+F15 "AIN6" I L 2875 3600 50 
+F16 "AIN7" I L 2875 3700 50 
+F17 "NFC2" O L 2875 2500 50 
+F18 "NFC1" O L 2875 2400 50 
+F19 "D1" O R 3750 2850 50 
+F20 "D2" O R 3750 2950 50 
+F21 "D3" O R 3750 3050 50 
+F22 "D4" O R 3750 3150 50 
+F23 "D5" O R 3750 3250 50 
+F24 "D6" O R 3750 3350 50 
+F25 "D7" O R 3750 3450 50 
+F26 "D8" O R 3750 3550 50 
+F27 "D9" O R 3750 3650 50 
+F28 "D10" O R 3750 3750 50 
+F29 "D11" O R 3750 3850 50 
+$EndSheet
+Text Label 3900 2850 0    50   ~ 0
+~B_CHANGE
+Text Label 3900 2950 0    50   ~ 0
+~B_RESET
+Wire Wire Line
+	2425 2450 2600 2450
+Wire Wire Line
+	2600 2450 2600 3000
+Wire Wire Line
+	2600 3000 2875 3000
+Connection ~ 4875 3150
+$Comp
+L power:GND #PWR03
+U 1 1 5FB92C25
+P 4725 3225
+F 0 "#PWR03" H 4725 2975 50  0001 C CNN
+F 1 "GND" H 4730 3052 50  0000 C CNN
+F 2 "" H 4725 3225 50  0001 C CNN
+F 3 "" H 4725 3225 50  0001 C CNN
+	1    4725 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 3150 4725 3225
+Wire Wire Line
+	4875 3150 4725 3150
+$Comp
+L Device:Q_PMOS_GSD Q1
+U 1 1 6041AD8C
+P 5850 4175
+F 0 "Q1" V 6101 4175 50  0000 C CNN
+F 1 "Q_PMOS_GSD" V 6101 4175 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6050 4275 50  0001 C CNN
+F 3 "~" H 5850 4175 50  0001 C CNN
+F 4 "PMV32UP" H 5850 4175 50  0001 C CNN "MPN"
+	1    5850 4175
+	0    1    -1   0   
+$EndComp
+Text Label 6150 4075 0    50   ~ 0
+B_3V3
+Wire Wire Line
+	5325 4075 5475 4075
+Wire Wire Line
+	6050 4075 6125 4075
+$Comp
+L Device:R_Small R19
+U 1 1 6042BBCE
+P 5475 4275
+AR Path="/6042BBCE" Ref="R19"  Part="1" 
+AR Path="/5FACFA76/6042BBCE" Ref="R?"  Part="1" 
+AR Path="/5FA99F0A/6042BBCE" Ref="R?"  Part="1" 
+F 0 "R19" H 5375 4225 50  0000 C CNN
+F 1 "10k" H 5350 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5475 4275 50  0001 C CNN
+F 3 "~" H 5475 4275 50  0001 C CNN
+	1    5475 4275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 4375 5850 4450
+Wire Wire Line
+	5850 4450 5475 4450
+Wire Wire Line
+	5475 4375 5475 4450
+Connection ~ 5475 4450
+Wire Wire Line
+	5475 4450 4800 4450
+Wire Wire Line
+	5475 4075 5475 4175
+Connection ~ 5475 4075
+Wire Wire Line
+	5475 4075 5650 4075
+Text Label 3900 3050 0    50   ~ 0
+~ENABLE_3V3
+Wire Wire Line
+	3750 3050 4475 3050
+Wire Wire Line
+	3750 2950 4475 2950
+Wire Wire Line
+	3750 2850 4475 2850
+Wire Wire Line
+	3750 2350 4475 2350
+Wire Wire Line
+	3750 2250 4475 2250
+Text Label 4900 4450 0    50   ~ 0
+~ENABLE_3V3
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 6043D188
+P 5850 3775
+F 0 "JP2" H 5850 3868 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5850 3869 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5850 3775 50  0001 C CNN
+F 3 "~" H 5850 3775 50  0001 C CNN
+	1    5850 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3775 5325 3775
+Connection ~ 5325 3775
+Wire Wire Line
+	5325 3775 5325 3700
+Wire Wire Line
+	6125 4075 6125 3775
+Wire Wire Line
+	6125 3775 5950 3775
+Connection ~ 6125 4075
+Wire Wire Line
+	6125 4075 6450 4075
+Text Notes 5575 3625 0    50   ~ 0
+Short to steady power \nthe touch pcb
+$Sheet
+S 1425 3525 650  675 
+U 6044F0E3
+F0 "imu" 50
+F1 "imu.sch" 50
+F2 "SDA" B R 2075 3625 50 
+F3 "SCL" O R 2075 3725 50 
+F4 "INT1" O R 2075 3900 50 
+F5 "INT2" O R 2075 4000 50 
+F6 "SCLK" I L 1425 3825 50 
+F7 "~CS" O L 1425 3925 50 
+F8 "FSYNC" O L 1425 4025 50 
+F9 "SDO" O L 1425 3625 50 
+F10 "SDI" I L 1425 3725 50 
+$EndSheet
+Wire Wire Line
+	2075 3625 2450 3625
+Wire Wire Line
+	2075 3725 2450 3725
+Wire Wire Line
+	2075 3900 2450 3900
+Wire Wire Line
+	2075 4000 2450 4000
+Wire Wire Line
+	1050 3925 1425 3925
+Wire Wire Line
+	3750 2600 4475 2600
+Wire Wire Line
+	3750 2500 4475 2500
+Wire Wire Line
+	3750 2700 4475 2700
+Text Label 2150 3625 0    50   ~ 0
+B_SDA
+Text Label 2150 3725 0    50   ~ 0
+B_SCL
+Text Label 3900 2500 0    50   ~ 0
+MISO
+Text Label 3900 2600 0    50   ~ 0
+MOSI
+Text Label 3900 2700 0    50   ~ 0
+SCLK
+Text Label 1125 3925 0    50   ~ 0
+~CS
+Text Label 3900 3150 0    50   ~ 0
+~CS
+Text Label 2150 3900 0    50   ~ 0
+INT1
+Text Label 2150 4000 0    50   ~ 0
+INT2
+Text Label 3900 3250 0    50   ~ 0
+INT1
+Text Label 3900 3325 0    50   ~ 0
+INT2
+Wire Wire Line
+	3750 3350 4475 3350
+Wire Wire Line
+	3750 3250 4475 3250
+Wire Wire Line
+	3750 3150 4475 3150
+Text Notes 1550 4175 0    50   ~ 0
+I2C : 0x68
+Text Notes 9575 3275 0    50   ~ 0
+I2C : 0x1C (AT42QT2120)
+Text Notes 9800 3375 0    50   ~ 0
+0x40 (TLC59108 - 1)
+Text Notes 9800 3475 0    50   ~ 0
+0x41 (TLC59108 - 2)
+Text Label 1125 3825 0    50   ~ 0
+SCLK
+Text Label 1125 3725 0    50   ~ 0
+MOSI
+Text Label 1125 3625 0    50   ~ 0
+MISO
+Wire Wire Line
+	1050 3825 1425 3825
+Wire Wire Line
+	1050 3725 1425 3725
+Wire Wire Line
+	1050 3625 1425 3625
+$Comp
+L Custom:Logo_NM U9
+U 1 1 5FC6E66D
+P 5400 1650
+F 0 "U9" H 5300 1700 50  0001 C CNN
+F 1 "Logo_NM" H 5495 1684 50  0000 L CNN
+F 2 "Custom:Logo_NM" H 5444 1580 50  0001 C CNN
+F 3 "" H 5340 1636 50  0001 C CNN
+	1    5400 1650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

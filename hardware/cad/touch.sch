@@ -1,0 +1,1100 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AT42QT2120-XU:AT42QT2120-XU U?
+U 1 1 5FAD8613
+P 5525 4325
+AR Path="/5FAD8613" Ref="U?"  Part="1" 
+AR Path="/5FACFA76/5FAD8613" Ref="U1"  Part="1" 
+F 0 "U1" H 6675 2760 50  0000 C CNN
+F 1 "AT42QT2120-XU" H 6675 2851 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5775 2825 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/doc9634.pdf" H 5525 4825 50  0001 L CNN
+F 4 "AT42QT2120-XU" H 5525 4325 50  0001 C CNN "MPN"
+	1    5525 4325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5775 4025 5425 4025
+Wire Wire Line
+	5425 4125 5775 4125
+Wire Wire Line
+	5775 3825 5425 3825
+Wire Wire Line
+	5425 3925 5775 3925
+Wire Wire Line
+	5775 3625 5425 3625
+Wire Wire Line
+	5425 3725 5775 3725
+Wire Wire Line
+	5775 3425 5425 3425
+Wire Wire Line
+	5425 3525 5775 3525
+Wire Wire Line
+	5775 3225 5425 3225
+Wire Wire Line
+	5425 3325 5775 3325
+Wire Wire Line
+	5775 3025 5425 3025
+Wire Wire Line
+	5425 3125 5775 3125
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD8625
+P 5875 4125
+AR Path="/5FAD8625" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD8625" Ref="R16"  Part="1" 
+F 0 "R16" V 5825 3950 50  0000 C CNN
+F 1 "4k7" V 5825 4275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 4125 50  0001 C CNN
+F 3 "~" H 5875 4125 50  0001 C CNN
+	1    5875 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD862B
+P 5875 4025
+AR Path="/5FAD862B" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD862B" Ref="R15"  Part="1" 
+F 0 "R15" V 5825 3850 50  0000 C CNN
+F 1 "4k7" V 5825 4175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 4025 50  0001 C CNN
+F 3 "~" H 5875 4025 50  0001 C CNN
+	1    5875 4025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD8631
+P 5875 3925
+AR Path="/5FAD8631" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD8631" Ref="R14"  Part="1" 
+F 0 "R14" V 5825 3750 50  0000 C CNN
+F 1 "4k7" V 5825 4075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3925 50  0001 C CNN
+F 3 "~" H 5875 3925 50  0001 C CNN
+	1    5875 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD8637
+P 5875 3825
+AR Path="/5FAD8637" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD8637" Ref="R13"  Part="1" 
+F 0 "R13" V 5825 3650 50  0000 C CNN
+F 1 "4k7" V 5825 3975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3825 50  0001 C CNN
+F 3 "~" H 5875 3825 50  0001 C CNN
+	1    5875 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD863D
+P 5875 3725
+AR Path="/5FAD863D" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD863D" Ref="R12"  Part="1" 
+F 0 "R12" V 5825 3550 50  0000 C CNN
+F 1 "4k7" V 5825 3875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3725 50  0001 C CNN
+F 3 "~" H 5875 3725 50  0001 C CNN
+	1    5875 3725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD8643
+P 5875 3625
+AR Path="/5FAD8643" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD8643" Ref="R11"  Part="1" 
+F 0 "R11" V 5825 3450 50  0000 C CNN
+F 1 "4k7" V 5825 3775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3625 50  0001 C CNN
+F 3 "~" H 5875 3625 50  0001 C CNN
+	1    5875 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD8649
+P 5875 3525
+AR Path="/5FAD8649" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD8649" Ref="R10"  Part="1" 
+F 0 "R10" V 5825 3350 50  0000 C CNN
+F 1 "4k7" V 5825 3675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3525 50  0001 C CNN
+F 3 "~" H 5875 3525 50  0001 C CNN
+	1    5875 3525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD864F
+P 5875 3425
+AR Path="/5FAD864F" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD864F" Ref="R9"  Part="1" 
+F 0 "R9" V 5825 3250 50  0000 C CNN
+F 1 "4k7" V 5825 3575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3425 50  0001 C CNN
+F 3 "~" H 5875 3425 50  0001 C CNN
+	1    5875 3425
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD8655
+P 5875 3325
+AR Path="/5FAD8655" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD8655" Ref="R8"  Part="1" 
+F 0 "R8" V 5825 3150 50  0000 C CNN
+F 1 "4k7" V 5825 3475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3325 50  0001 C CNN
+F 3 "~" H 5875 3325 50  0001 C CNN
+	1    5875 3325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD865B
+P 5875 3225
+AR Path="/5FAD865B" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD865B" Ref="R7"  Part="1" 
+F 0 "R7" V 5825 3050 50  0000 C CNN
+F 1 "4k7" V 5825 3375 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5875 3225 50  0001 C CNN
+F 3 "~" H 5875 3225 50  0001 C CNN
+	1    5875 3225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3325 2975 3150 2975
+$Comp
+L Device:C_Small C?
+U 1 1 5FAD8674
+P 3150 3225
+AR Path="/5FAD8674" Ref="C?"  Part="1" 
+AR Path="/5FACFA76/5FAD8674" Ref="C2"  Part="1" 
+F 0 "C2" H 2975 3275 50  0000 L CNN
+F 1 "100n" H 2875 3175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3150 3225 50  0001 C CNN
+F 3 "~" H 3150 3225 50  0001 C CNN
+	1    3150 3225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3125 3150 2975
+Connection ~ 3150 2975
+Wire Wire Line
+	3150 2975 2800 2975
+$Comp
+L Device:C_Small C?
+U 1 1 5FAD8683
+P 2800 3225
+AR Path="/5FAD8683" Ref="C?"  Part="1" 
+AR Path="/5FACFA76/5FAD8683" Ref="C1"  Part="1" 
+F 0 "C1" H 2708 3271 50  0000 R CNN
+F 1 "10u" H 2708 3180 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 3225 50  0001 C CNN
+F 3 "~" H 2800 3225 50  0001 C CNN
+F 4 "CL10A106KP8NNNC" H 2800 3225 50  0001 C CNN "MPN"
+	1    2800 3225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3125 2800 2975
+Wire Wire Line
+	3325 3475 3150 3475
+Wire Wire Line
+	2800 3325 2800 3475
+Connection ~ 2800 3475
+Wire Wire Line
+	3150 3325 3150 3475
+Connection ~ 3150 3475
+Wire Wire Line
+	3150 3475 2800 3475
+Wire Wire Line
+	5975 4025 6675 4025
+Wire Wire Line
+	5975 4125 6675 4125
+Wire Wire Line
+	5975 3825 6675 3825
+Wire Wire Line
+	5975 3925 6675 3925
+Wire Wire Line
+	5975 3625 6675 3625
+Wire Wire Line
+	5975 3725 6675 3725
+Wire Wire Line
+	5975 3425 6675 3425
+Wire Wire Line
+	5975 3525 6675 3525
+Wire Wire Line
+	5975 3225 6675 3225
+Wire Wire Line
+	5975 3325 6675 3325
+Text Label 6300 4125 0    50   ~ 0
+WHEEL0
+Text Label 6300 4025 0    50   ~ 0
+WHEEL1
+Text Label 6300 3925 0    50   ~ 0
+WHEEL2
+Text Label 1475 3925 0    50   ~ 0
+SCL
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD86B8
+P 2275 3550
+AR Path="/5FAD86B8" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD86B8" Ref="R3"  Part="1" 
+F 0 "R3" H 2175 3500 50  0000 C CNN
+F 1 "4k7" H 2150 3575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2275 3550 50  0001 C CNN
+F 3 "~" H 2275 3550 50  0001 C CNN
+	1    2275 3550
+	-1   0    0    1   
+$EndComp
+Connection ~ 2275 2975
+Wire Wire Line
+	2275 3450 2275 2975
+Text Label 1475 4225 0    50   ~ 0
+~RESET
+Wire Wire Line
+	1400 4325 2525 4325
+Text Label 1450 4325 0    50   ~ 0
+~CHANGE
+Wire Wire Line
+	3325 4025 2975 4025
+NoConn ~ 2975 4025
+Wire Wire Line
+	2275 2975 2525 2975
+Wire Wire Line
+	1400 4225 2275 4225
+$Comp
+L Device:R_Small R?
+U 1 1 5FAD86CB
+P 2525 3550
+AR Path="/5FAD86CB" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FAD86CB" Ref="R4"  Part="1" 
+F 0 "R4" H 2425 3500 50  0000 C CNN
+F 1 "4k7" H 2400 3575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2525 3550 50  0001 C CNN
+F 3 "~" H 2525 3550 50  0001 C CNN
+	1    2525 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2525 3450 2525 2975
+Connection ~ 2525 2975
+Wire Wire Line
+	2525 3650 2525 4325
+Connection ~ 2525 4325
+Wire Wire Line
+	2525 4325 3325 4325
+Wire Wire Line
+	2275 3650 2275 4225
+Connection ~ 2275 4225
+Wire Wire Line
+	2275 4225 3325 4225
+Text Label 1475 3825 0    50   ~ 0
+SDA
+$Comp
+L Device:LED D?
+U 1 1 5FAD86E3
+P 9950 3075
+AR Path="/5FAD86E3" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FAD86E3" Ref="D1"  Part="1" 
+F 0 "D1" H 10075 3025 50  0000 C CNN
+F 1 "LED" H 10100 3125 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 3075 50  0001 C CNN
+F 3 "~" H 9950 3075 50  0001 C CNN
+	1    9950 3075
+	1    0    0    1   
+$EndComp
+Text Label 6300 3825 0    50   ~ 0
+KEY3
+Text Label 6300 3725 0    50   ~ 0
+KEY4
+Text Label 6300 3625 0    50   ~ 0
+KEY5
+Text Label 6300 3525 0    50   ~ 0
+KEY6
+Text Label 6300 3425 0    50   ~ 0
+KEY7
+Text Label 6300 3325 0    50   ~ 0
+KEY8
+Text Label 6300 3225 0    50   ~ 0
+KEY9
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 5FABA8E1
+P 6875 3725
+F 0 "J7" H 6847 3703 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6847 3748 50  0001 R CNN
+F 2 "Custom:Touchpad" H 6875 3725 50  0001 C CNN
+F 3 "~" H 6875 3725 50  0001 C CNN
+	1    6875 3725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 5FABC5FA
+P 6875 3425
+F 0 "J6" H 6847 3403 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6847 3448 50  0001 R CNN
+F 2 "Custom:Touchpad" H 6875 3425 50  0001 C CNN
+F 3 "~" H 6875 3425 50  0001 C CNN
+	1    6875 3425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 5FABDBAF
+P 6875 3625
+F 0 "J5" H 6847 3603 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6847 3648 50  0001 R CNN
+F 2 "Custom:Touchpad" H 6875 3625 50  0001 C CNN
+F 3 "~" H 6875 3625 50  0001 C CNN
+	1    6875 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 5FABF068
+P 6875 3225
+F 0 "J4" H 6847 3203 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6847 3248 50  0001 R CNN
+F 2 "Custom:Touchpad" H 6875 3225 50  0001 C CNN
+F 3 "~" H 6875 3225 50  0001 C CNN
+	1    6875 3225
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FAD1471
+P 9950 3375
+AR Path="/5FAD1471" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FAD1471" Ref="D3"  Part="1" 
+F 0 "D3" H 10075 3325 50  0000 C CNN
+F 1 "LED" H 10100 3425 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 3375 50  0001 C CNN
+F 3 "~" H 9950 3375 50  0001 C CNN
+	1    9950 3375
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FAD1480
+P 9950 3525
+AR Path="/5FAD1480" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FAD1480" Ref="D4"  Part="1" 
+F 0 "D4" H 10075 3475 50  0000 C CNN
+F 1 "LED" H 10100 3575 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 3525 50  0001 C CNN
+F 3 "~" H 9950 3525 50  0001 C CNN
+	1    9950 3525
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5FAE3369
+P 6875 3325
+F 0 "J3" H 6847 3303 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6847 3348 50  0001 R CNN
+F 2 "Custom:Touchpad" H 6875 3325 50  0001 C CNN
+F 3 "~" H 6875 3325 50  0001 C CNN
+	1    6875 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 5FAE336F
+P 6875 3525
+F 0 "J2" H 6847 3503 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6847 3548 50  0001 R CNN
+F 2 "Custom:Touchpad" H 6875 3525 50  0001 C CNN
+F 3 "~" H 6875 3525 50  0001 C CNN
+	1    6875 3525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 5FAE3375
+P 6875 3825
+F 0 "J1" H 6847 3803 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6847 3848 50  0001 R CNN
+F 2 "Custom:Touchpad" H 6875 3825 50  0001 C CNN
+F 3 "~" H 6875 3825 50  0001 C CNN
+	1    6875 3825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Driver_LED:TLC59108xPW U2
+U 1 1 5FB05A34
+P 8825 3050
+F 0 "U2" H 8475 3625 50  0000 C CNN
+F 1 "TLC59108xPW" H 9150 3625 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8825 3050 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlc59108.pdf" H 8625 3000 50  0001 C CNN
+F 4 "TLC59108IPWR" H 8825 3050 50  0001 C CNN "MPN"
+	1    8825 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FB0623D
+P 8200 3525
+AR Path="/5FB0623D" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FB0623D" Ref="R17"  Part="1" 
+F 0 "R17" H 8075 3475 50  0000 C CNN
+F 1 "750R" H 8050 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8200 3525 50  0001 C CNN
+F 3 "~" H 8200 3525 50  0001 C CNN
+	1    8200 3525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FB06BE0
+P 8100 2150
+AR Path="/5FB06BE0" Ref="C?"  Part="1" 
+AR Path="/5FACFA76/5FB06BE0" Ref="C3"  Part="1" 
+F 0 "C3" H 8008 2196 50  0000 R CNN
+F 1 "10u" H 8008 2105 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 2150 50  0001 C CNN
+F 3 "~" H 8100 2150 50  0001 C CNN
+F 4 "CL10A106KP8NNNC" H 8100 2150 50  0001 C CNN "MPN"
+	1    8100 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FB06F76
+P 8450 2150
+AR Path="/5FB06F76" Ref="C?"  Part="1" 
+AR Path="/5FACFA76/5FB06F76" Ref="C5"  Part="1" 
+F 0 "C5" H 8275 2200 50  0000 L CNN
+F 1 "100n" H 8175 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8450 2150 50  0001 C CNN
+F 3 "~" H 8450 2150 50  0001 C CNN
+	1    8450 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 2450 8825 1950
+Wire Wire Line
+	8825 1950 8450 1950
+Wire Wire Line
+	8450 1950 8450 2050
+Wire Wire Line
+	8450 1950 8100 1950
+Wire Wire Line
+	8100 1950 8100 2050
+Connection ~ 8450 1950
+Wire Wire Line
+	8100 2250 8100 2350
+Wire Wire Line
+	8100 2350 8450 2350
+Wire Wire Line
+	8450 2350 8450 2250
+Wire Wire Line
+	8825 3550 8825 3700
+Wire Wire Line
+	8325 3350 8200 3350
+Wire Wire Line
+	8200 3350 8200 3425
+Wire Wire Line
+	8200 3625 8200 3700
+Wire Wire Line
+	8200 3700 8825 3700
+Wire Wire Line
+	8325 2850 7775 2850
+Wire Wire Line
+	7775 2750 8325 2750
+Text Label 7900 2750 0    50   ~ 0
+SCL
+Text Label 7900 2850 0    50   ~ 0
+SDA
+Text Label 7900 2650 0    50   ~ 0
+~RESET
+Wire Wire Line
+	8325 2650 7775 2650
+Text HLabel 1400 3925 0    50   Input ~ 0
+SCL
+Text HLabel 1400 4225 0    50   Input ~ 0
+~RESET
+Text HLabel 1400 4325 0    50   Output ~ 0
+~CHANGE
+Text HLabel 1400 3825 0    50   BiDi ~ 0
+SDA
+$Comp
+L Device:LED D?
+U 1 1 5FACE000
+P 9950 3225
+AR Path="/5FACE000" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FACE000" Ref="D2"  Part="1" 
+F 0 "D2" H 10075 3175 50  0000 C CNN
+F 1 "LED" H 10100 3275 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 3225 50  0001 C CNN
+F 3 "~" H 9950 3225 50  0001 C CNN
+	1    9950 3225
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FB39F92
+P 9950 2475
+AR Path="/5FB39F92" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FB39F92" Ref="D5"  Part="1" 
+F 0 "D5" H 10075 2425 50  0000 C CNN
+F 1 "LED" H 10100 2525 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 2475 50  0001 C CNN
+F 3 "~" H 9950 2475 50  0001 C CNN
+	1    9950 2475
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FB39F98
+P 9975 4550
+AR Path="/5FB39F98" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FB39F98" Ref="D7"  Part="1" 
+F 0 "D7" H 10100 4500 50  0000 C CNN
+F 1 "LED" H 10125 4600 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 4550 50  0001 C CNN
+F 3 "~" H 9975 4550 50  0001 C CNN
+	1    9975 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FB39F9E
+P 9950 2925
+AR Path="/5FB39F9E" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FB39F9E" Ref="D8"  Part="1" 
+F 0 "D8" H 10075 2875 50  0000 C CNN
+F 1 "LED" H 10100 2975 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 2925 50  0001 C CNN
+F 3 "~" H 9950 2925 50  0001 C CNN
+	1    9950 2925
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FB39FA4
+P 9950 2625
+AR Path="/5FB39FA4" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FB39FA4" Ref="D6"  Part="1" 
+F 0 "D6" H 10075 2575 50  0000 C CNN
+F 1 "LED" H 10100 2675 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 2625 50  0001 C CNN
+F 3 "~" H 9950 2625 50  0001 C CNN
+	1    9950 2625
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9325 2950 9700 2950
+Wire Wire Line
+	9700 2950 9700 2925
+Wire Wire Line
+	9700 2925 9800 2925
+Wire Wire Line
+	9325 3050 9700 3050
+Wire Wire Line
+	9700 3050 9700 3075
+Wire Wire Line
+	9700 3075 9800 3075
+Wire Wire Line
+	9325 3150 9650 3150
+Wire Wire Line
+	9650 3150 9650 3225
+Wire Wire Line
+	9650 3225 9800 3225
+Wire Wire Line
+	9325 3250 9575 3250
+Wire Wire Line
+	9575 3250 9575 3375
+Wire Wire Line
+	9575 3375 9800 3375
+Wire Wire Line
+	9325 3350 9500 3350
+Wire Wire Line
+	9500 3350 9500 3525
+Wire Wire Line
+	9500 3525 9800 3525
+Wire Wire Line
+	9325 2850 9650 2850
+Wire Wire Line
+	9650 2850 9650 2775
+Wire Wire Line
+	9650 2775 9800 2775
+Wire Wire Line
+	9325 2750 9575 2750
+Wire Wire Line
+	9575 2750 9575 2625
+Wire Wire Line
+	9575 2625 9800 2625
+Wire Wire Line
+	9325 2650 9500 2650
+Wire Wire Line
+	9500 2650 9500 2475
+Wire Wire Line
+	9500 2475 9800 2475
+Wire Wire Line
+	10100 3525 10325 3525
+Wire Wire Line
+	10325 3525 10325 3375
+Wire Wire Line
+	10100 2475 10325 2475
+Connection ~ 10325 2475
+Wire Wire Line
+	10325 2475 10325 2350
+Wire Wire Line
+	10100 2625 10325 2625
+Connection ~ 10325 2625
+Wire Wire Line
+	10325 2625 10325 2475
+Wire Wire Line
+	10100 2775 10325 2775
+Connection ~ 10325 2775
+Wire Wire Line
+	10325 2775 10325 2625
+Wire Wire Line
+	10100 2925 10325 2925
+Connection ~ 10325 2925
+Wire Wire Line
+	10325 2925 10325 2775
+Wire Wire Line
+	10100 3075 10325 3075
+Connection ~ 10325 3075
+Wire Wire Line
+	10325 3075 10325 2925
+Wire Wire Line
+	10100 3225 10325 3225
+Connection ~ 10325 3225
+Wire Wire Line
+	10325 3225 10325 3075
+Wire Wire Line
+	10100 3375 10325 3375
+Connection ~ 10325 3375
+Wire Wire Line
+	10325 3375 10325 3225
+$Comp
+L power:VD #PWR010
+U 1 1 5FBA03E7
+P 10325 2350
+F 0 "#PWR010" H 10325 2200 50  0001 C CNN
+F 1 "VD" H 10342 2523 50  0000 C CNN
+F 2 "" H 10325 2350 50  0001 C CNN
+F 3 "" H 10325 2350 50  0001 C CNN
+	1    10325 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBB3882
+P 9950 2775
+AR Path="/5FBB3882" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB3882" Ref="D9"  Part="1" 
+F 0 "D9" H 10075 2725 50  0000 C CNN
+F 1 "LED" H 10100 2825 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9950 2775 50  0001 C CNN
+F 3 "~" H 9950 2775 50  0001 C CNN
+	1    9950 2775
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBB3888
+P 9975 4850
+AR Path="/5FBB3888" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB3888" Ref="D11"  Part="1" 
+F 0 "D11" H 10100 4800 50  0000 C CNN
+F 1 "LED" H 10125 4900 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 4850 50  0001 C CNN
+F 3 "~" H 9975 4850 50  0001 C CNN
+	1    9975 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBB388E
+P 9975 5000
+AR Path="/5FBB388E" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB388E" Ref="D12"  Part="1" 
+F 0 "D12" H 10100 4950 50  0000 C CNN
+F 1 "LED" H 10125 5050 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 5000 50  0001 C CNN
+F 3 "~" H 9975 5000 50  0001 C CNN
+	1    9975 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Driver_LED:TLC59108xPW U3
+U 1 1 5FBB3895
+P 8850 5125
+F 0 "U3" H 8500 5700 50  0000 C CNN
+F 1 "TLC59108xPW" H 9175 5700 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8850 5125 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlc59108.pdf" H 8650 5075 50  0001 C CNN
+F 4 "TLC59108IPWR" H 8850 5125 50  0001 C CNN "MPN"
+	1    8850 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FBB389B
+P 8225 5600
+AR Path="/5FBB389B" Ref="R?"  Part="1" 
+AR Path="/5FACFA76/5FBB389B" Ref="R18"  Part="1" 
+F 0 "R18" H 8100 5550 50  0000 C CNN
+F 1 "750R" H 8075 5625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8225 5600 50  0001 C CNN
+F 3 "~" H 8225 5600 50  0001 C CNN
+	1    8225 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FBB38A8
+P 8125 4225
+AR Path="/5FBB38A8" Ref="C?"  Part="1" 
+AR Path="/5FACFA76/5FBB38A8" Ref="C4"  Part="1" 
+F 0 "C4" H 8033 4271 50  0000 R CNN
+F 1 "10u" H 8033 4180 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8125 4225 50  0001 C CNN
+F 3 "~" H 8125 4225 50  0001 C CNN
+F 4 "CL10A106KP8NNNC" H 8125 4225 50  0001 C CNN "MPN"
+	1    8125 4225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FBB38AE
+P 8475 4225
+AR Path="/5FBB38AE" Ref="C?"  Part="1" 
+AR Path="/5FACFA76/5FBB38AE" Ref="C6"  Part="1" 
+F 0 "C6" H 8300 4275 50  0000 L CNN
+F 1 "100n" H 8200 4175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8475 4225 50  0001 C CNN
+F 3 "~" H 8475 4225 50  0001 C CNN
+	1    8475 4225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4525 8850 4025
+Wire Wire Line
+	8850 4025 8475 4025
+Wire Wire Line
+	8475 4025 8475 4125
+Wire Wire Line
+	8475 4025 8125 4025
+Wire Wire Line
+	8125 4025 8125 4125
+Connection ~ 8475 4025
+Wire Wire Line
+	8125 4325 8125 4425
+Wire Wire Line
+	8125 4425 8475 4425
+Wire Wire Line
+	8475 4425 8475 4325
+Wire Wire Line
+	8850 5625 8850 5775
+Wire Wire Line
+	8350 5425 8225 5425
+Wire Wire Line
+	8225 5425 8225 5500
+Wire Wire Line
+	8225 5700 8225 5775
+Wire Wire Line
+	8225 5775 8850 5775
+Wire Wire Line
+	8350 4925 7800 4925
+Wire Wire Line
+	7800 4825 8350 4825
+Text Label 7925 4825 0    50   ~ 0
+SCL
+Text Label 7925 4925 0    50   ~ 0
+SDA
+Text Label 7925 4725 0    50   ~ 0
+~RESET
+Wire Wire Line
+	8350 4725 7800 4725
+$Comp
+L Device:LED D?
+U 1 1 5FBB38D9
+P 9975 4700
+AR Path="/5FBB38D9" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB38D9" Ref="D10"  Part="1" 
+F 0 "D10" H 10100 4650 50  0000 C CNN
+F 1 "LED" H 10125 4750 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 4700 50  0001 C CNN
+F 3 "~" H 9975 4700 50  0001 C CNN
+	1    9975 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBB38DF
+P 9975 5600
+AR Path="/5FBB38DF" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB38DF" Ref="D13"  Part="1" 
+F 0 "D13" H 10100 5550 50  0000 C CNN
+F 1 "LED" H 10125 5650 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 5600 50  0001 C CNN
+F 3 "~" H 9975 5600 50  0001 C CNN
+	1    9975 5600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBB38E5
+P 9975 5300
+AR Path="/5FBB38E5" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB38E5" Ref="D15"  Part="1" 
+F 0 "D15" H 10100 5250 50  0000 C CNN
+F 1 "LED" H 10125 5350 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 5300 50  0001 C CNN
+F 3 "~" H 9975 5300 50  0001 C CNN
+	1    9975 5300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBB38EB
+P 9975 5150
+AR Path="/5FBB38EB" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB38EB" Ref="D16"  Part="1" 
+F 0 "D16" H 10100 5100 50  0000 C CNN
+F 1 "LED" H 10125 5200 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 5150 50  0001 C CNN
+F 3 "~" H 9975 5150 50  0001 C CNN
+	1    9975 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBB38F1
+P 9975 5450
+AR Path="/5FBB38F1" Ref="D?"  Part="1" 
+AR Path="/5FACFA76/5FBB38F1" Ref="D14"  Part="1" 
+F 0 "D14" H 10100 5400 50  0000 C CNN
+F 1 "LED" H 10125 5500 50  0001 C CNN
+F 2 "LED_SMD:156125BS57000" H 9975 5450 50  0001 C CNN
+F 3 "~" H 9975 5450 50  0001 C CNN
+	1    9975 5450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9350 5025 9725 5025
+Wire Wire Line
+	9725 5025 9725 5000
+Wire Wire Line
+	9725 5000 9825 5000
+Wire Wire Line
+	9350 5125 9725 5125
+Wire Wire Line
+	9725 5125 9725 5150
+Wire Wire Line
+	9725 5150 9825 5150
+Wire Wire Line
+	9350 5225 9675 5225
+Wire Wire Line
+	9675 5225 9675 5300
+Wire Wire Line
+	9675 5300 9825 5300
+Wire Wire Line
+	9350 5325 9600 5325
+Wire Wire Line
+	9600 5325 9600 5450
+Wire Wire Line
+	9600 5450 9825 5450
+Wire Wire Line
+	9350 5425 9525 5425
+Wire Wire Line
+	9525 5425 9525 5600
+Wire Wire Line
+	9525 5600 9825 5600
+Wire Wire Line
+	9350 4925 9675 4925
+Wire Wire Line
+	9675 4925 9675 4850
+Wire Wire Line
+	9675 4850 9825 4850
+Wire Wire Line
+	9350 4825 9600 4825
+Wire Wire Line
+	9600 4825 9600 4700
+Wire Wire Line
+	9600 4700 9825 4700
+Wire Wire Line
+	9350 4725 9525 4725
+Wire Wire Line
+	9525 4725 9525 4550
+Wire Wire Line
+	9525 4550 9825 4550
+Wire Wire Line
+	10125 5600 10350 5600
+Wire Wire Line
+	10350 5600 10350 5450
+Wire Wire Line
+	10125 4550 10350 4550
+Connection ~ 10350 4550
+Wire Wire Line
+	10350 4550 10350 4425
+Wire Wire Line
+	10125 4700 10350 4700
+Connection ~ 10350 4700
+Wire Wire Line
+	10350 4700 10350 4550
+Wire Wire Line
+	10125 4850 10350 4850
+Connection ~ 10350 4850
+Wire Wire Line
+	10350 4850 10350 4700
+Wire Wire Line
+	10125 5000 10350 5000
+Connection ~ 10350 5000
+Wire Wire Line
+	10350 5000 10350 4850
+Wire Wire Line
+	10125 5150 10350 5150
+Connection ~ 10350 5150
+Wire Wire Line
+	10350 5150 10350 5000
+Wire Wire Line
+	10125 5300 10350 5300
+Connection ~ 10350 5300
+Wire Wire Line
+	10350 5300 10350 5150
+Wire Wire Line
+	10125 5450 10350 5450
+Connection ~ 10350 5450
+Wire Wire Line
+	10350 5450 10350 5300
+$Comp
+L power:VD #PWR011
+U 1 1 5FBB3926
+P 10350 4425
+F 0 "#PWR011" H 10350 4275 50  0001 C CNN
+F 1 "VD" H 10367 4598 50  0000 C CNN
+F 2 "" H 10350 4425 50  0001 C CNN
+F 3 "" H 10350 4425 50  0001 C CNN
+	1    10350 4425
+	1    0    0    -1  
+$EndComp
+Text HLabel 1325 2300 0    50   Input ~ 0
+TVDD
+Text HLabel 1325 2475 0    50   Input ~ 0
+TGND
+Wire Wire Line
+	1325 2475 1850 2475
+Text Label 1500 2475 0    50   ~ 0
+TGND
+Wire Wire Line
+	1325 2300 1850 2300
+Text Label 1500 2300 0    50   ~ 0
+T3V3
+Text Label 1825 2975 0    50   ~ 0
+T3V3
+Wire Wire Line
+	2525 2975 2800 2975
+Connection ~ 2800 2975
+Wire Wire Line
+	2800 4525 2350 4525
+Wire Wire Line
+	2800 3475 2800 4125
+Text Label 2450 4525 0    50   ~ 0
+TGND
+Wire Wire Line
+	2800 4125 3325 4125
+Connection ~ 2800 4125
+Wire Wire Line
+	2800 4125 2800 4525
+Text Label 8175 1950 0    50   ~ 0
+T3V3
+Text Label 8900 5775 0    50   ~ 0
+TGND
+Wire Wire Line
+	8850 5775 9125 5775
+Connection ~ 8850 5775
+Text Label 8875 3700 0    50   ~ 0
+TGND
+Wire Wire Line
+	8825 3700 9100 3700
+Text Label 8200 4025 0    50   ~ 0
+T3V3
+Text Label 8175 2350 0    50   ~ 0
+TGND
+Text Label 8200 4425 0    50   ~ 0
+TGND
+Wire Wire Line
+	1775 2975 2275 2975
+Wire Wire Line
+	1400 3825 3325 3825
+Wire Wire Line
+	1400 3925 3325 3925
+Text Notes 1175 3675 0    50   ~ 0
+I2C adress : 0x1C (28)
+Wire Wire Line
+	8200 3700 8000 3700
+Wire Wire Line
+	8000 2950 8325 2950
+Connection ~ 8200 3700
+Wire Wire Line
+	8325 3050 8000 3050
+Wire Wire Line
+	8000 2950 8000 3050
+Connection ~ 8000 3050
+Wire Wire Line
+	8000 3050 8000 3150
+Wire Wire Line
+	8325 3150 8000 3150
+Connection ~ 8000 3150
+Wire Wire Line
+	8000 3150 8000 3250
+Wire Wire Line
+	8000 3250 8325 3250
+Connection ~ 8000 3250
+Wire Wire Line
+	8000 3250 8000 3700
+Text Notes 7600 2500 0    50   ~ 0
+I2C address : 0x40
+Wire Wire Line
+	8350 5325 7900 5325
+Wire Wire Line
+	7900 5775 8225 5775
+Connection ~ 8225 5775
+Wire Wire Line
+	8350 5225 7900 5225
+Wire Wire Line
+	7900 5225 7900 5325
+Connection ~ 7900 5325
+Wire Wire Line
+	7900 5325 7900 5775
+Wire Wire Line
+	8350 5125 7900 5125
+Wire Wire Line
+	7900 5125 7900 5225
+Connection ~ 7900 5225
+Wire Wire Line
+	8350 5025 7900 5025
+Text Label 8000 5025 0    50   ~ 0
+T3V3
+Text Notes 7600 4575 0    50   ~ 0
+I2C address : 0x41
+$EndSCHEMATC
